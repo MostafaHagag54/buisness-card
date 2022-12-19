@@ -1,0 +1,94 @@
+@font-face {
+    src: url("fonts/Pacify Angry.otf");
+    font-family: Pacify Angry;
+}
+
+
+body{
+    font-family: 'Pacify Angry', sans-serif;
+
+    text-align: center;
+margin: 0;
+padding: 0;
+
+}
+
+.mainDiv{
+    background-image: url("images/cow.gif");
+    background-size: cover;
+   
+ 
+
+
+}
+.logo
+{
+    width: 80px;
+    margin-right: 50%;
+    margin-left: 50%;
+    border-radius: 10px;    
+    margin-bottom: 0px;
+
+
+
+}
+.btn{
+font-size: 20px;
+background-color: white;
+border: none;
+border-radius: 5px;
+font-family: inherit;
+width: fit-content;
+
+width: auto;
+
+}
+.mainHead{
+    background-color: aqua;
+    padding: 20px 5px;
+    animation-name: example;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+    color: blue;
+    border-radius: 10px;
+
+
+
+
+}
+button:hover{
+border:2px solid #c17538;
+
+text-decoration: underline;
+
+}
+h1:hover,button:hover{
+
+    text-shadow: 2px 2px 4px #000000;
+}
+span:hover{
+    text-shadow: 1px 1px;
+    border:2px solid #A3BC71 ;
+    padding: 5px;
+    text-decoration: underline;
+
+}
+
+@keyframes example {
+    0%   {background-color: red;}
+    25%  {background-color: yellow;}
+    50%  {
+        background-color: blue;
+        color: white;
+
+    }
+    100% {background-color: green;
+        color: red;
+    }
+  }
+.logo:hover{
+
+    border: 2px solid #c17538;
+    box-shadow: 5px 5px 5px #3b3030;
+
+}
